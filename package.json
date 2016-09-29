@@ -1,0 +1,36 @@
+{
+  "name": "meetup",
+  "version": "0.1.0",
+  "description": "Meetup App - Udacity Nanodegree Project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhnvrm/meetup.git"
+  },
+  "keywords": [
+    "meetup",
+    "udacity"
+  ],
+  "author": {
+    "name": "Rohan Verma",
+    "email": "hello@rohanverma.net",
+    "url": "http://rohanverma.net/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhnvrm/meetup/issues",
+    "email": "hello@rohanverma.net"
+  },
+  "homepage": "https://github.com/rhnvrm/meetup"
+}
