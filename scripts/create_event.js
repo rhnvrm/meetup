@@ -1,3 +1,6 @@
+// Removing Default Bubble
+// https://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
+
 var forms = document.getElementsByTagName('form');
 	for (var i = 0; i < forms.length; i++) {
     forms[i].addEventListener('invalid', function(e) {

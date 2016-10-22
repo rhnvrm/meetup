@@ -1,3 +1,6 @@
+// Removing Default Bubble
+// https://www.html5rocks.com/en/tutorials/forms/constraintvalidation/
+
 var forms = document.getElementsByTagName('form');
 	for (var i = 0; i < forms.length; i++) {
 	    forms[i].addEventListener('invalid', function(e) {
@@ -32,6 +35,7 @@ $name.on('blur',function() {
 });
 
 $email.on('blur', function() {
+	//http://emailregex.com/
 	var emailPattern = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i;
 
 	if($email.val().length === 0){
